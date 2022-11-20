@@ -1,53 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
 body {
-    font-family: 'Source Sans Pro';
-    background-color: lightgray;
+    background-color: #eee;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;  
+    font-weight: 200; 
+}
+
+a { 
+    text-decoration: none;
+}
+
+p {
+    font-size: 1em;
+    text-align: justify;
+    padding: 0 10px;
 }
 
 .newspaper-container {
-    position:absolute;
-    width: 700px;
-    border-radius: 5%;
-    padding: 15px;
     background-color: white;
+    width: 700px;
+    margin: 3em auto;
+    padding: 1em;
     box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ddd;
 }
 
-ul {
+nav {
+    border-top: solid #eee 1px;
+    border-bottom: solid #eee 1px;
+    padding: 5px 0;
+    margin: 1em 0;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav ul {
     list-style: none;
-    text-align: center;
-    border-top: solid lightgrey 2px;
-    border-bottom: solid lightgray 2px;
+    margin: 0;
+    
 }
 
-li {
-    display: inline;
-    padding: 8px;
-    color: #777;
-    text-decoration: none;
+nav li {
+    display: inline-block;
+    padding: 0 0.5em;
 } 
+
+nav a {
+    color: #777;
+    font-size: 0.8em;
+}
 
 h1 {
     text-align: center;
-    font-family: 'Abril Fatface';
-    font-weight: bolder;
-    font-size: 4em;
+    margin: 0;
+    font-family: 'Abril Fatface', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
 }
 
 h2 {
-    font-family: "Roboto Slab";
+    font-family: "Roboto Slab", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0;
 }
 
-div {
+.more-articles section {
     display: inline-block;
+    width: 44%;
+    margin: 0 1em;
 }
 
 h5 {
     color: red;
-    size: 4em;
+    font-family: 'Abril Fatface', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0.5em;
 }
 
 main {
-    border-bottom: solid lightgray 2px;
+    border-bottom: solid lightgray 1px;
+}
+
+img {
+    width: 100%;
 }
